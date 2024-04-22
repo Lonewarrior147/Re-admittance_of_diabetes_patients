@@ -28,7 +28,7 @@ def main():
     
     if st.button("Click to Predict the need of re-admittance"):
         result = predict(np.array([race,gender,age,number_diagoneses,weight,metformin,glimepiriide,glipizide,glyburide,pioglitazone,rosiglitazone,insulin,diabetesMed]))
-        st.text(result[0])
+        #st.text(result[0])
 
 if_name_=='_main_':
     main()
